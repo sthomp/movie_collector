@@ -1,0 +1,12 @@
+{
+  "horror": {
+    "name": "Horror",
+    "movies": [
+      {"id": "tt1226681", "name": "Pontypool"},
+      {"id": "tt0084787", "name": "The Thing"},
+      {"id": "tt4255304", "name": "Void"},
+      {"id": "tt0078748", "name": "Alien"},
+      {"id": "tt2388715", "name": "Oculus"}
+    ]
+  }
+}

@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <router-view :key="$route"></router-view>
   </div>
 </template>
 
 <script>
 import Firebase from 'firebase';
+
+require('../static/normalize.css');
 
 const config = {
   apiKey: 'AIzaSyB0suatFkRo7oJSfXvuPf68WTcbOc1ve_k',
